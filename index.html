@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="icon" href="https://static.thenounproject.com/png/214909-200.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Black Swan | Web Design</title>
+    <style media="screen">
+      html, body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      }
+      body{
+        width: 100%;
+        height: 100vh;
+        background: url(https://images.unsplash.com/photo-1533735658443-4f59760363f2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a310c09ccc793cf15c4ddd3ccadd0739&auto=format&fit=crop&w=750&q=80);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: table;
+        font-family: Montserrat;
+      }
+      .nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 80px;
+        border-bottom: 1px solid rgba(255,255,255,0.5);
+      }
+      .logo{
+        float: left;
+        color: #fff;
+        font-size: 22px;
+        padding:0 6em;
+        letter-spacing: 1px;
+        line-height: 80px;
+      }
+      .logo span{
+
+        top: 5px;
+      }
+      .logo img{
+        width: 40px;
+        position: relative;
+        top: 12px;
+        left: 5px;
+      }
+      .menu{
+        float: right;
+        line-height: 50px;
+        margin: 0 6em;
+      }
+      .menu ul{
+        list-style: none;
+      }
+      .menu ul li{
+        display: inline-block;
+      }
+      .menu ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: lighter;
+        padding: 0 20px;
+      }
+      ul li:nth-child(5) a{
+        color: #fff;
+        border: 1px solid #009f8b;
+        padding: 10px 20px;
+        border-radius: 4px;
+      }
+      .header{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .header h1{
+        color: #fff;
+        font-size: 46px;
+        font-weight: 400;
+        margin-bottom: 8px;
+      }
+      .header p{
+        color: #fff;
+        font-size: 24px;
+        font-weight: lighter;
+      }
+      .header button{
+        color: #fff;
+        background: #009f8b;
+        padding: 18px 32px;
+        border: none;
+        font-size: 14px;
+        margin-top: 40px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <div class="logo">
+          <img src="https://images.vexels.com/media/users/3/135862/isolated/preview/813118c691d25b47377c69ff75167a8d-duck-icon-by-vexels.png">
+          <span>| The Black Swan</span>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a hred="#">Home</a></li>
+            <li><a hred="#">Listing</a></li>
+            <li><a hred="#">Locations</a></li>
+            <li><a hred="#">Contact</a></li>
+            <li><a hred="#">Register</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="header">
+        <h1>The Black Swan</h1>
+        <p>Birmingham / New Jersey</p>
+        <button type="button" name="button">View Detail</button>
+      </div>
+    </div>
+  </body>
+</html>
